@@ -1,0 +1,116 @@
+.login-section{
+    height: 85vh;
+}
+
+#frm-register > div,
+#frm-login > div,
+#frm-edits > div
+{
+    margin: 0.5em 0;
+}
+
+#frm-register > div > label,
+#frm-login > div > label
+#frm-edits > div > label
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#frm-login{
+    color: aliceblue;
+    border-radius: 1em;
+    width: 25em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.custom-checkbox{
+    width: 60%;
+    text-align: center;
+    background-color: #eb5082;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: .5em .5em .5em .5em;
+}
+
+/*
+    REGISTER STYLES
+*/
+
+#frm-edits {
+    color: aliceblue;
+    border-radius: 1em;
+    width: 30em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#frm-register {
+    color: aliceblue;
+    border-radius: 1em;
+    width: 55em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.inp-label label{
+    margin-right: 1em;
+    width: 12em;
+}
+
+.input-data{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+}
+
+#custominp-openfile{
+    width: 60%;
+    text-align: center;
+    background-color: #eb5082;
+    margin: 1em auto !important;
+    border-radius: 1em;
+    padding: .5em .5em .5em .5em;
+}
+
+.styled-btn{
+    margin: 1em 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.styled-input
+{
+    height: 2.5em;
+    width: 12em;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.styled-ta{
+    padding: 1em;
+    height: 4em;
+}
+
+.userdata, .personaldata{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.25em;
+}
+
+.custom-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 3em auto;
+}
+
+.custom-label > h1 {
+    font-weight: 100;
+}

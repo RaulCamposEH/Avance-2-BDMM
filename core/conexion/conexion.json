@@ -1,0 +1,9 @@
+{
+  "conexion": {
+    "server": "localhost",
+    "user": "devadmin",
+    "password": "devadmin",
+    "database": "db_cyberkong",
+    "port": "3306"
+  }
+}
