@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">db_name</Data></Cell>
+			<Cell><Data ss:Type="String">TABLE_NAME</Data></Cell>
+			<Cell><Data ss:Type="String">table_type</Data></Cell>
+			<Cell><Data ss:Type="String">COLUMN_NAME</Data></Cell>
+			<Cell><Data ss:Type="String">COLUMN_TYPE</Data></Cell>
+			<Cell><Data ss:Type="String">COLUMN_DEFAULT</Data></Cell>
+			<Cell><Data ss:Type="String">COLUMN_KEY</Data></Cell>
+			<Cell><Data ss:Type="String">IS_NULLABLE</Data></Cell>
+			<Cell><Data ss:Type="String">EXTRA</Data></Cell>
+			<Cell><Data ss:Type="String">COLUMN_COMMENT</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_carrito</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">listado_carrito</Data></Cell>
+			<Cell><Data ss:Type="String">json</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">LISTADO DE PRODUCTOS CON DETALLES PARA SU VENTA, EN FORMATO JSON</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_carrito</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">LLAVE FORANEA DEL USUARIO DUEÑO DEL CARRITO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_carrito</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO EN EL QUE SE ENCUENTRA EL CARRITO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_cat_prod</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">CATEGORIA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DE CATEGORIA QUE REPRESENTA LA CATEGORIA ASOCIADA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_cat_prod</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">PRODUCTO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DE PRODUCTO QUE REPRESENTA EL PRODUCTO AL QUE SE LE VA ASOCIAR LA CATEGORIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_categorias</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">CATEGORIA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO POR CATEGORIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_categorias</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">cat_nombre</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(20)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">NOMBRE DE LA CATEGORIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_categorias</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">cat_descripcion</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(250)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">DESCRIPCION DE LA CATEGORIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_categorias</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DEL USUARIO QUIEN CREO ESTA CATEGORIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_comentarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">COMENTARIO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DEL COMENTARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_comentarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">com_contenido</Data></Cell>
+			<Cell><Data ss:Type="String">text</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">CONTENIDO DEL COMENTARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_comentarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">com_valoracion</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">VALORACION DEL PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_comentarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">com_fecha</Data></Cell>
+			<Cell><Data ss:Type="String">datetime</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">FECHA EN QUE SE HIZO EL COMENTARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_comentarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">PRODUCTO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRODUCTO AL QUE SE ESTA HACIENDO EL COMENTARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_comentarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">USUARIO QUIEN ESTA HACIENDO EL COMENTARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_deseados</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">LISTA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DE LA LISTA DE DESEOS DEL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_deseados</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">lista_descripcion</Data></Cell>
+			<Cell><Data ss:Type="String">text</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">DESCRIPCION DE LA LISTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_deseados</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">lista_longitud</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">CANTIDAD DE ARTICULOS EN LA LISTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_deseados</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DEL USUARIO DUEÑO DE LA LISTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_deseados</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO DE LA LISTA (PUBLICA O PRIVADA)</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_prod</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">PRODUCTO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DEL PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_prod</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">LISTA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DE LA LISTA DONDE SE MOSTRARA ESTE PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_lista_prod</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">fecha_ag</Data></Cell>
+			<Cell><Data ss:Type="String">datetime</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">FECHA EN LA QUE SE AGREGO EL PRODUCTO A LA LISTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_multimedia</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">MEDIA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DEL ELEMENTO MULTIMEDIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_multimedia</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">media_data</Data></Cell>
+			<Cell><Data ss:Type="String">longblob</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ELEMENTO MULTIMEDIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_multimedia</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">media_type</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(15)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">TIPO DE ELEMENTO MULTIMEDIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_multimedia</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">fecha_subida</Data></Cell>
+			<Cell><Data ss:Type="String">datetime</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">FECHA DE SUBIDA DEL ELEMENTO MULTIMEDIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_multimedia</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">PRODUCTO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DEL PRODUCTO AL CUAL PERTENECE ESTE ELEMENTO MULTIMEDIA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">PRODUCTO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO POR PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">prod_nombre</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(30)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">NOMBRE DEL PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">prod_description</Data></Cell>
+			<Cell><Data ss:Type="String">text</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">DESCRIPCION DEL PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">precio</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(8,2)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRECIO DEL PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">prod_cantidad</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">CANTIDAD DISPONIBLE DE ESTE PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">prod_valoracion</Data></Cell>
+			<Cell><Data ss:Type="String">tinyint</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">VALORACION DEL PRODUCTO (PROMEDIO DE LAS VALORACIONES DE LOS COMENTARIOS DE ESTE PRODUCTO)</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO EN QUE SE ENCUENTRA ESTE PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_productos</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DE USUARIO DUEÑO DE ESTE PRODUCTO (VENDEDOR)</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_static_rol</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ROL_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DEL ROL</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_static_rol</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">user_rol</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(10)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">NOMBRE/DESCRIPCION QUE LLEVARA EL ROL (EJEMP. "ADMIN")</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_static_state</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DEL ESTADO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_static_state</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">descripcion</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(30)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">DESCRIPCION DEL ESTADO (EJEM. "DISPONIBLE")</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_token</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">TOKEN_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DEL TOKEN</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_token</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">token</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">TOKEN DE AUTENTIFICACION</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_token</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">fecha_registro</Data></Cell>
+			<Cell><Data ss:Type="String">datetime</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">FECHA EN QUE SE CREO EL TOKEN</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_token</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DEL USUARIO AL QUE PERTENECE EL TOKEN</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_token</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO DEL TOKEN</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO POR USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">email</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(40)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">UNI</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">EMAIL DEL USUARIO CON EL QUE LOGEARA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">username</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(30)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">UNI</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">USERNAME CON EL QUE SE IDENTIFICA EL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">user_password</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(65)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">CONTRASEÑA CON LA QUE EL USUARIO LOGEARA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">user_nombre</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(50)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">NOMBRE(S) PERSONAL DEL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">user_apPat</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(25)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">APELLIDO PATERNO DEL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">user_apMat</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(25)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">APELLIDO MATERNO DEL USUARIO (SI LO TIENE)</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">user_sex</Data></Cell>
+			<Cell><Data ss:Type="String">tinyint</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">SEXO DEL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">fecha_nac</Data></Cell>
+			<Cell><Data ss:Type="String">date</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">FECHA DE NACIMIENTO DEL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">fecha_in</Data></Cell>
+			<Cell><Data ss:Type="String">datetime</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">FECHA DE INGRESO DEL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">imagen_usuario</Data></Cell>
+			<Cell><Data ss:Type="String">mediumblob</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">IMAGEN DEL AVATAR DEL USUARIO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">image_type</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(15)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">TIPO DE ARCHIVO QUE SE USARA PARA EL CONTENT/TYPE</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ROL_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ROL DE USUARIO, SE DEFINE CON LLAVE FORANEA DE TABLA ROL</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_usuarios</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ESTADO DEL USUARIO, SE DEFINE CON LLAVE FORANEA DE TABLA ESTADO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">VENTA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DE VENTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">fecha_venta</Data></Cell>
+			<Cell><Data ss:Type="String">date</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">FECHA EN QUE SE CREO ESTA VENTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">USER_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">USUARIO PARA OBTENER EL CARRITO AL QUE PERTENECE ESTA VENTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta_detalle</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">DETALLE_VENTA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID UNICO DE DETALLE VENTA</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta_detalle</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">cantidad</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">CANTIDAD DE PRODUCTOS</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta_detalle</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">precio</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRECIO UNITARIO DEL PRODUCTO</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta_detalle</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">importe</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">PRECIO TOTAL POR TODOS LOS PRODUCTOS</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta_detalle</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">VENTA_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">VENTA A LA QUE PERTENECE</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">db_cyberkong</Data></Cell>
+			<Cell><Data ss:Type="String">t_venta_detalle</Data></Cell>
+			<Cell><Data ss:Type="String">table</Data></Cell>
+			<Cell><Data ss:Type="String">PRODUCTO_ID</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">MUL</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">ID DEL PRODUCTO</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
