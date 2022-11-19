@@ -160,8 +160,8 @@ BEGIN
         u.image_type "IMG TYPE"
         FROM t_usuarios as u
         JOIN t_token as t on u.USER_ID = t.USER_ID
-        -- where t.token = _token;
-        where t.token = "b250fc3af2043c0e1297e1c0a411a45c";
+        where t.token = _token;
+        -- where t.token = "b250fc3af2043c0e1297e1c0a411a45c";
     
     end if;
     
